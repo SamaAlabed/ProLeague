@@ -1,0 +1,35 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "grad-project-2cd2d",
+          "appId": "1:242044822594:android:61cac0a826e6a115a479db",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "grad-project-2cd2d",
+          "configurations": {
+            "android": "1:242044822594:android:61cac0a826e6a115a479db",
+            "ios": "1:242044822594:ios:decfc7d11508b288a479db"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}
